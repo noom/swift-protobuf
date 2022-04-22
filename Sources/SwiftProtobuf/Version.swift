@@ -25,4 +25,10 @@ public struct Version {
 
   /// String form of the version number.
   public static let versionString = "\(major).\(minor).\(revision)"
+
+  // We have unit tests that check that the runtime implementation is using the Noom's
+  // fork instead of the official implementation.
+  // We don't care about the specific version of the fork, only that the fork is indeed
+  // used.
+  public static let noomFork = true
 }
