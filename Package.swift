@@ -12,7 +12,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "SwiftProtobuf",
+  name: "NoomSwiftProtobuf",
   products: [
     .executable(name: "protoc-gen-swift", targets: ["protoc-gen-swift"]),
     .library(name: "SwiftProtobuf", targets: ["SwiftProtobuf"]),
