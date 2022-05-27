@@ -41,7 +41,7 @@ class Test_Enum: XCTestCase, PBTestHelpers {
         }
     }
 
-    func testJSONdecodingOptions() {
+    func testIgnoreUnknownEnumCase() {
 
         var options = JSONDecodingOptions()
         options.ignoreUnknownFields = true
